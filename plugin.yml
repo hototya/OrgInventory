@@ -1,0 +1,19 @@
+name: OrgInventory
+main: hototya\inventory\OrgInventory
+version: 1.0.0
+api: 
+  - 3.0.0
+  - 3.0.0-ALPHA9
+load: POSTWORLD
+website: https://github.com/hototya/OrgInventory
+author: hototya
+commands:
+  org:
+    description: プレイヤーインベントリをID順に整理します。
+    usage: /org
+    permission: inventory.command.org
+
+permissions:
+  inventory.command.org:
+    default: true
+    description: permission that allows player to use /org
